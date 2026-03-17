@@ -1,6 +1,8 @@
+# 🚀 OpenAI 注册机（二次开发版）
+
 ## ✨ 二次开发说明
 
-基于原项目做了二次开发，主要改动：
+基于原项目进行了二次开发，主要优化如下：
 
 - ✅ 集成 Gmail 自动获取验证码  
 - 🌐 增加 proxies 代理支持  
@@ -12,8 +14,10 @@
 
 ## 🚀 使用方法
 
-openai_reg.py
-MAIL_DOMAIN=你的域名邮箱
+运行脚本时指定域名邮箱：
+
+```bash
+openai_reg.py MAIL_DOMAIN=你的域名邮箱
 
 配置Gmail
 
