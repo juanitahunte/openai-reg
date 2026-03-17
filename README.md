@@ -16,8 +16,9 @@
 
 运行脚本时指定域名邮箱：
 
-```bash
-openai_reg.py MAIL_DOMAIN=你的域名邮箱
+openai_reg.py里 
+
+MAIL_DOMAIN=你的域名邮箱
 
 配置Gmail
 
