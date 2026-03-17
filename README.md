@@ -1,26 +1,22 @@
+## ✨ 二次开发说明
+
+基于原项目做了二次开发，主要改动：
+
+- ✅ 集成 Gmail 自动获取验证码  
+- 🌐 增加 proxies 代理支持  
+- ⚡ 整体流程更加自动化  
+
+欢迎测试使用 👇
 
 ---
 
-## 🚀 稍专业一点（README优化版）
-```md
-## ✨ Features / 改动说明
+## 🚀 使用方法
 
-本项目基于原项目进行二次开发，主要优化如下：
+openai_reg.py
+MAIL_DOMAIN=你的域名邮箱
 
-- 📩 **Gmail 自动收验证码**  
-  自动读取邮箱验证码，无需手动操作  
+配置Gmail
+.env
 
-- 🌍 **代理支持（Proxies）**  
-  支持通过代理运行（推荐日韩节点）  
-
-- ⚙️ **流程自动化优化**  
-  减少人工干预，提升整体效率  
-
----
-
-## 🚀 Usage / 使用方法
-
-### 1️⃣ 环境变量配置
-
-```env
-MAIL_DOMAIN=your-domain-email
+IMAP_USER=mygmail@gmail.com
+IMAP_PASSWORD=aaaa bbbb cccc dddd
