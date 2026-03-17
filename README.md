@@ -16,7 +16,9 @@ openai_reg.py
 MAIL_DOMAIN=你的域名邮箱
 
 配置Gmail
+
 .env
 
-IMAP_USER=mygmail@gmail.com
-IMAP_PASSWORD=aaaa bbbb cccc dddd
+IMAP_USER：用于接收验证码的 Gmail 账号
+
+IMAP_PASSWORD：Gmail 应用密码
